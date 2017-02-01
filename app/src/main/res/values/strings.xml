@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Dagger Test</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Common -->
+    <string name="please_wait">Загрузка…</string>
+    <string name="button_ok">Ок</string>
+    <string name="button_no">Нет</string>
+    <string name="button_yes">Да</string>
+    <string name="no_data">Нет данных</string>
+    <string name="next_milestone">Будет доступно в следующей вешке</string>
+    <string name="logout_message">Вы действительно хотите выйти?</string>
+    <string name="default_value">---</string>
+
+    <!--Auth strings-->
+    <string name="text_btn_login">Войти</string>
+    <string name="text_btn_register">Зарегистрироваться</string>
+    <string name="text_btn_look_around">Осмотреться в системе</string>
+    <string name="text_btn_send">Отправить</string>
+    <string name="text_btn_resend">Повторить</string>
+    <string name="text_btn_reset_password">Отправить</string>
+    <string name="text_btn_save_and_login">Сохранить и войти</string>
+    <string name="text_login">Логин</string>
+    <string name="text_password">Пароль</string>
+    <string name="text_forgot_password">Забыли пароль?</string>
+    <string name="text_register">Зарегистрироваться</string>
+    <string name="text_mobile_phone">Мобильный телефон</string>
+    <string name="text_password_for_login">Пароль для входа</string>
+    <string name="text_password_confirmation">Подтвердите пароль</string>
+    <string name="text_enter_confirmation_code">Введите код подтверждения</string>
+    <string name="text_confirmation_code">Четырехзначный код</string>
+    <string name="text_resend_timer">Зпросить код повторно вы сможете через %d сек</string>
+    <string name="text_welcome_description">Для того, чтобы получить доступ к полноценному функционалу системы, вам необходимо:</string>
+    <string name="text_complete_profile">Заполнить профиль</string>
+    <string name="text_check_profile">Пройти проверку системой</string>
+    <string name="text_btn_begin">Начать</string>
+    <string name="text_look_around">Осмотреться в системе</string>
+    <string name="text_cargomart_description">Биржа грузоперевозок</string>
+    <string name="text_reset_password">Для восстановления пароля введите номер телефона,
+        на который придет код подтверждения для изменения пароля:</string>
+    <string name="text_enter_code">Код подтверждения</string>
+    <string name="text_new_password">Новый пароль</string>
+    <string name="text_confirm_password">Подтвердите новый пароль</string>
+    <string name="text_password_changed_message">Вы успешно изменили пароль!</string>
+
+    <!-- Order Details -->
+
+    <string name="order_details_title" formatted="false">Заказ № %s</string>
+    <string name="order_details_order_name">Название</string>
+    <string name="order_details_sale_type">Тип торгов</string>
+    <string name="order_details_delivery_time">Перевезти за</string>
+    <string name="order_details_sender">Грузоотправитель</string>
+    <string name="order_details_contacts">Контакты грузоотправителя</string>
+    <string name="order_details_loading">Погрузка</string>
+    <string name="order_details_loading_point">Пункт погрузки</string>
+    <string name="order_details_location">Населенный пункт</string>
+    <string name="order_details_address">Адрес</string>
+    <string name="order_details_loading_time">Время погрузки</string>
+    <string name="order_details_unloading">Выгрузка</string>
+    <string name="order_details_unloading_point">Пункт выгрузки</string>
+    <string name="order_details_unloading_time">Время выгрузки</string>
+    <string name="order_details_requirements">Требования</string>
+    <string name="order_details_auto_type">Тип транспорта</string>
+    <string name="order_details_cargo_weight">Вес груза</string>
+    <string name="order_details_cargo_type">Тип груза</string>
+    <string name="order_details_loading_type">Тип погрузки</string>
+    <string name="order_details_unloading_type">Тип выгрузки</string>
+    <string name="order_details_cargo_volume">Объем</string>
+    <string name="order_details_payment_info">Информация об оплате</string>
+    <string name="order_details_payment_method">Расчет</string>
+    <string name="order_details_payment_price">Цена</string>
+    <string name="order_details_payment_tax">Цена указана</string>
+    <string name="order_details_payment_base_rate">Базовая ставка</string>
+    <string name="order_details_payment_minimal_rate_step">Минимальный шаг</string>
+    <string name="order_details_payment_increment_percent">Процент повышения</string>
+    <string name="order_details_comment">Комментарий</string>
+    <string name="order_details_bet">Сделать ставку</string>
+    <string name="order_start_search">Начать поиск</string>
+    <string name="order_details_take_part">Участвовать</string>
+    <string name="order_details_bid">Ваша ставка:</string>
+    <string name="order_details_bid_delivery_time">Срок:</string>
+    <string name="order_details_win_notification">Поздравляем! Ваша ставка выиграла</string>
+    <string name="order_details_win_notification_contact">Свяжитесь с заказчиком, чтобы оформить документы, договориться о деталях и получить оплату.</string>
+    <string name="order_view_auction">Аукцион</string>
+    <string name="order_view_express">Экспресс</string>
+    <string name="order_cargo_weight" formatted="false">%s кг</string>
+    <string name="order_cargo_volume" formatted="false">%d кб. м</string>
+    <string name="order_loading_time" formatted="false">Погруз %s</string>
+    <string name="order_payment_method_cash">Наличный</string>
+    <string name="order_payment_method_cashless">Безналичный</string>
+    <string name="order_without_vat">с НДС</string>
+    <string name="order_vat_included">без НДС</string>
+    <string name="order_you_win">Вы стали победителем</string>
+
+    <!-- Order List -->
+    <string name="order_list_results_count_template">Найдено %1$s %2$s</string>
+    <string name="order_list_change_search_params">Изменить параметры поиска</string>
+    <string name="order_cost_format" formatted="false">%d Р</string>
+    <string name="order_action_auction_bid">Сделать ставку</string>
+    <string name="order_action_auction_your_bid">Ваша ставка</string>
+    <string name="order_action_express_bid">Участвовать</string>
+    <string name="order_action_express_bid_mine">Участвуете</string>
+    <string name="order_waiting_start">Ожидает начала</string>
+    <string name="order_waiting_bid">Прием ставок</string>
+    <string name="order_ended">Торги завершены</string>
+    <string name="order_won">Вы победитель</string>
+
+    <!-- Favorite Orders -->
+    <string name="order_help_favorite">Заказ автоматически добавлен в избранное</string>
+    <string name="fav_orders_page_title_auctions">Аукционы</string>
+    <string name="fav_orders_page_title_express_orders">Экспресс</string>
+    <string name="fav_orders_sale_started">Идут торги</string>
+    <string name="fav_orders_sale_pending">Ожидают начало</string>
+    <string name="fav_orders_no_data_text">
+        У вас пока нет избранных заказов. \n
+        Начните с поиска заказов.
+    </string>
+    <string name="watch_directions_no_data_text">
+        У вас пока нет отслеживаний.
+    </string>
+    <string name="won_order_no_data_text">
+        У вас пока нет выигранных заказов.
+    </string>
+
+
+</resources>

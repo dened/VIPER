@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/order_root_view">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.example.denischuvasov.viper.ui.views.OrderView
+                    android:id="@+id/order"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="4dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/bid_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+
+        android:text="@string/order_details_bet"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/horizontal_half_margin"
+        android:visibility="gone"/>
+
+
+    <FrameLayout
+        android:id="@+id/bid_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:clickable="true"
+        android:visibility="visible">
+        <TableLayout
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground">
+            <TableRow
+                android:id="@+id/bid_value_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_details_bid"
+                    android:gravity="left" />
+                <TextView
+                    android:id="@+id/bid_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100 P"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/horizontal_half_margin"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/bid_delivery_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_details_bid_delivery_time"
+                    android:gravity="right"/>
+                <TextView
+                    android:id="@+id/bid_delivery_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 дней 0 часов"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/horizontal_half_margin"/>
+            </TableRow>
+        </TableLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#88111111">
+    <android.support.v4.widget.ContentLoadingProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    </FrameLayout>
+
+</FrameLayout>
